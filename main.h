@@ -13,6 +13,7 @@
 extern char **environ;
 
 void prompt(void);
+void signal_handler(int signo);
 char *read_line(void);
 int execute(char **tokens);
 void display_env(void);
