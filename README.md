@@ -18,7 +18,7 @@ int _strcmp(char *s1, char *s2);
 ## Compilation
 All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c main.h -o shell
 ## List of commands available
-/bin/ls - lists all files in current working directory
+/bin/ls - lists all files in current working directory  <br />
 /bin/ls -l - lists all files in current working directory in long format
 
 ## Authors
