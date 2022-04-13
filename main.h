@@ -12,6 +12,7 @@
 
 extern char **environ;
 
+char **_strtok(char *line);
 void prompt(void);
 void signal_handler(int signo);
 char *read_line(void);

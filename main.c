@@ -7,34 +7,33 @@
  */
 int main(void)
 {
-	char *user_input;
-	char *argv[] = {"/bin/ls", "-l", ".", NULL};
-	char **tokens;
+	char *input;
+	char **token;
 	int x;
 
 	while (1)
 	{
 		prompt();
 
-		user_input = read_line();
+		input = read_line();
 
-		if (user_input[0] == '\0')
+		if (input[0] == '\0')
 		{
-			free(user_input);
+			free(input);
 			continue;
 		}
-
-
-		if (_strcmp(argv[0], "env") != 0)
-			x = execute(argv);
+        
+		token = _strtok(input);
+		if (_strcmp(token[0], "env") != 0)
+			x = execute(token);
 
 		if (x != 0)
 		{
-			free(user_input);
+			free(input);
 			exit(EXIT_FAILURE);
 		}
 
-		free(user_input);
+		free(input);
 	}
 	return (0);
 }

@@ -5,16 +5,15 @@
  * @tokens: testing
  * Return: 0
  */
-int execute(char **tokens)
+int execute(char **token)
 {
 	pid_t child;
 	int status;
-	char *argv[] = {"/bin/ls", "-l", ".", NULL};
 
 	child = fork();
 	if (child == 0)
 	{
-		if (execve(argv[0], argv, NULL) == -1)
+		if (execve(token[0], token, NULL) == -1)
 		{
 			perror("not found");
 			return (-1);
