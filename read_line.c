@@ -2,7 +2,7 @@
 
 /**
  * read_line - reads user input
- * Return: in
+ * Return: line
  */
 char *read_line(void)
 {
