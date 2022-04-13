@@ -2,7 +2,7 @@
 
 /**
  * execute - executes a command
- * @tokens: testing
+ * @token: testing
  * Return: 0
  */
 int execute(char **token)

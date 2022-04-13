@@ -22,7 +22,6 @@ int main(void)
 			free(input);
 			continue;
 		}
-        
 		token = _strtok(input);
 		if (_strcmp(token[0], "env") != 0)
 			x = execute(token);
