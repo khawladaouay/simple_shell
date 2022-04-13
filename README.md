@@ -22,6 +22,7 @@ All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedant
 /bin/ls -l - lists all files in current working directory in long format
 
 ## Authors
-Farouk Ben Miled
+
+Farouk Ben Miled <br />
 Khaoula Daouay 
 
