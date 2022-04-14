@@ -25,7 +25,7 @@ All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedant
 * main.c - The simple shell itself and its main
 * read_line.c - Function that gets input from user to match correct output
 or prints an error message
-* test.c - Function that tokenizes whatever read_line.c retrieved
+* _strtok.c - Function that tokenizes whatever read_line.c retrieved
 * execute.c - Function that forks pid along with its child process
 * func.c - File that contains all frunctions for basic use
 ## Authors:
