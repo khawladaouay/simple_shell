@@ -4,10 +4,7 @@
 *@signo: singal passed by the user
 * Return: void
 */
-void signal_handler(int signo)
+void signal_handler(int signo __attribute__((unused)))
 {
-	if (signo == SIGINT)
-	{
-		printf("\n");
-	}
+	write(STDOUT_FILENO, "\n($) ", 5);
 }
