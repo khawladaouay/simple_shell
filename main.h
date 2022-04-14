@@ -11,7 +11,6 @@
 #include <limits.h>
 
 extern char **environ;
-int _exit(char **args);
 void _env(char **args);
 char **_strtok(char *line);
 void prompt(void);
