@@ -10,7 +10,6 @@ void prompt(void);  <br />
 void signal_handler(int signo);  <br />
 char *read_line(void);  <br />
 int execute(char **token);  <br />
-void display_env(void);  <br />
 int _strlen(char *s);  <br />
 int _strcmp(char *s1, char *s2);  <br />
 
