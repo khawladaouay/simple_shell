@@ -44,7 +44,7 @@ int main(void)
  */
 void prompt(void)
 {
-	char *prompt = "Shell ";
+	char *prompt = "$ ";
 
 	write(STDOUT_FILENO, prompt, _strlen(prompt));
 }

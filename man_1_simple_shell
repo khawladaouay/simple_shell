@@ -1,0 +1,56 @@
+.TH simple_shell manpage "14 april 2022" "version 1.0"
+.SH NAME
+.B Simple_Shell
+.Nd Command line interpreter.     
+.SH SYNOPSIS
+A Simple Shell project for Holberton School
+.SH DESCRIPTION
+simple shell is a UNIX command interpreter that replicates core functionalities of the sh shell. 
+This project was developed as part of the third month curriculum at Holberton School
+.SH EXEMPELS
+Ls with no option list files and directories in bare format where we won’t be able to view details like file types,
+ size, modified date and time, permission and links etc.
+.br
+$ /bin/ls
+.br
+AUTHORS  README.md  a.out  execute.c  func.c  main.c  main.h  man_1_simple_shell  read_line.c  signal.c  test.c
+.br
+Here, Ls -l (-l is character not one) shows file or directory, size, modified date and time, 
+file or folder name and owner of file and its permission.
+.br
+$ /bin/ls -l
+.br
+total 37
+.br
+-rwxrwxrwx 1 ryuk ryuk   165 Apr 13 17:23 AUTHORS
+.br
+-rwxrwxrwx 1 ryuk ryuk  1064 Apr 14 12:55 README.md
+.br
+-rwxrwxrwx 1 ryuk ryuk 17624 Apr 14 13:04 a.out
+.br
+-rwxrwxrwx 1 ryuk ryuk   345 Apr 13 22:30 execute.c
+.br
+-rwxrwxrwx 1 ryuk ryuk   490 Apr 13 22:23 func.c
+.br
+-rwxrwxrwx 1 ryuk ryuk   588 Apr 13 22:10 main.c
+.br
+-rwxrwxrwx 1 ryuk ryuk   454 Apr 14 12:53 main.h
+.br
+-rwxrwxrwx 1 ryuk ryuk  1376 Apr 14 13:01 man_1_simple_shell
+.br
+-rwxrwxrwx 1 ryuk ryuk   300 Apr 13 17:58 read_line.c
+.br
+-rwxrwxrwx 1 ryuk ryuk   189 Apr 13 18:34 signal.c
+.br
+-rwxrwxrwx 1 ryuk ryuk   355 Apr 13 22:23 test.c
+.br
+
+
+
+
+.SH BUGS
+Unfinished, Contact faroukbmiled@gmail.com or souad.glaa@holbertonschool.com  for any complaints.
+
+
+.SH AUTHOR
+Farouk Ben Miled | Khaoula Daouay
