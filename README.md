@@ -2,7 +2,7 @@
 This project is a part of the curriculum of software engineering for the low-level programming module at Holberton School.  <br />
 This program runs a simple shell. This shell will execute the most basic commands present in the bash shell.
 ## Returns:
-When successfully compiled, the users prompt will be sent to search the matching command line that is meant to be executed and if said command has no matches
+When successfully compiled, the users prompt will be sent to search the matching command line that is meant to be executed and if said command has no matches it returns an error
 
 ## Function Prototypes:
 char **_strtok(char *line);  <br />
