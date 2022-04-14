@@ -15,6 +15,7 @@ int execute(char **token)
 	{
 		if (execve(token[0], token, NULL) == -1)
 		{
+			free(token);
 			perror("not found");
 			return (-1);
 		}

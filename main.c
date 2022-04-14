@@ -33,6 +33,7 @@ int main(void)
 		}
 
 		free(input);
+		free(token);
 	}
 	return (0);
 }
