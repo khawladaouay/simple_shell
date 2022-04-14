@@ -12,17 +12,12 @@ char *read_line(void);  <br />
 int execute(char **token);  <br />
 int _strlen(char *s);  <br />
 int _strcmp(char *s1, char *s2);  <br />
-void display_env(void);  <br />
 
 ## Compilation:
 All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c main.h -o shell
 ## Command Line Examples:
 /bin/ls - lists all files in current working directory  <br />
 /bin/ls -l - lists all files in current working directory in long format <br />
-
-## Builtins
-env - Displays the environment <br />
-exit - For user to use whenever they desire to exit out of shell <br />
 
 ## Files
 * README.md: Current file containing information about this project
