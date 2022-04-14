@@ -18,8 +18,9 @@ void display_env(void);  <br />
 All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c main.h -o shell
 ## Command Line Examples:
 /bin/ls - lists all files in current working directory  <br />
-/bin/ls -l - lists all files in current working directory in long format
-##Builtins
+/bin/ls -l - lists all files in current working directory in long format <br />
+
+## Builtins
 env - Displays the environment <br />
 exit - For user to use whenever they desire to exit out of shell <br />
 
