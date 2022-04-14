@@ -17,5 +17,32 @@ char **_strtok(char *line)
 		i++;
 	}
 	token[i] = NULL;
+
+	if (_strcmp(token[0], "exit") == 0)
+	{
+		free(line);
+		exit(EXIT_SUCCESS);
+	}
+
+		if ((_strcmp(token[0], "env") == 0) && token[1] == NULL)
+		display_env();
+
 	return (token);
+}
+
+/**
+ * display_env - displays environment variables
+ *
+ * Return: VOID
+ */
+void display_env(void)
+{
+	unsigned int i = 0;
+
+	while (environ[i])
+	{
+		write(STDOUT_FILENO, environ[i], _strlen(environ[i]));
+		write(STDOUT_FILENO, "\n", 1);
+		i++;
+	}
 }

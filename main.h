@@ -11,7 +11,6 @@
 #include <limits.h>
 
 extern char **environ;
-void _env(char **args);
 char **_strtok(char *line);
 void prompt(void);
 void signal_handler(int signo);
@@ -19,5 +18,6 @@ char *read_line(void);
 int execute(char **token);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
+void display_env(void);
 
 #endif /*_MAIN_H_*/
