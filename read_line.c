@@ -6,19 +6,19 @@
  */
 char *read_line(void)
 {
-	int len = 0;
+	int l = 0;
 	size_t buffsize = 0;
 	char *line = NULL;
 
-	len = getline(&line, &buffsize, stdin);
+	l = getline(&line, &buffsize, stdin);
 
-	if (len == EOF)
+	if (l == EOF)
 	{
 		free(line);
 		exit(EXIT_SUCCESS);
 	}
 
-	line[len - 1] = '\0';
+	line[l - 1] = '\0';
 
 	return (line);
 }

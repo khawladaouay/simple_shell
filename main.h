@@ -18,6 +18,5 @@ char *read_line(void);
 int execute(char **token);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
-void display_env(void);
 
 #endif /*_MAIN_H_*/
