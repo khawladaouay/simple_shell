@@ -19,6 +19,15 @@ All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedant
 /bin/ls - lists all files in current working directory  <br />
 /bin/ls -l - lists all files in current working directory in long format
 
+## Files
+* README.md: Current file containing information about this project
+* main.h - Heade file that contains all library and prototype functions
+* main.c - The simple shell itself and its main
+* read_line.c - Function that gets input from user to match correct output
+or prints an error message
+* test.c - Function that tokenizes whatever read_line.c retrieved
+* execute.c - Function that forks pid along with its child process
+* func.c - File that contains all frunctions for basic use
 ## Authors:
 
 Farouk Ben Miled <br />
