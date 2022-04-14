@@ -21,7 +21,7 @@ All files will be compiled with the following: gcc -Wall -Werror -Wextra -pedant
 
 ## Files
 * README.md: Current file containing information about this project
-* main.h - Heade file that contains all library and prototype functions
+* main.h - Header file that contains all library and prototype functions
 * main.c - The simple shell itself and its main
 * read_line.c - Function that gets input from user to match correct output
 or prints an error message
